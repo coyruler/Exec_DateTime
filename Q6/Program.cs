@@ -10,7 +10,7 @@ namespace Q6
     {
         static void Main(string[] args)
         {
-            //根據日期, 傳回今天是本月的上旬, 中旬或下旬 
+            //根據日期, 傳回今天是本月的上旬, 中旬或下旬
             DateTime dt1 = DateTime.Now;
             int month = dt1.Month;
             if(month<10)
